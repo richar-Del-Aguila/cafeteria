@@ -32,13 +32,15 @@ public class Pedidos {
     }
 
     public void Factura(){
-        System.out.println("Factura de cafeteria `Café con aroma a mujer`");
-        System.out.println("Producto ordenado..............." + pedido);
-        System.out.println("Cantidad ordenada..............." + cantidad);
-        System.out.println("Precio unitario................." + precio);
-        System.out.println("--------------------------------------------------");
-        System.out.println("Total a neto..................." + compraTotal);
-        System.out.println("Descuento aplicado............." + (descuento * 100) + "%");
-        System.out.println("Total a pagar.................." + precioPagar);
+        System.out.println("-------------------------------------------------");
+        System.out.println("| Factura de cafeteria Cafe con aroma a mujer |");
+        System.out.println("-------------------------------------------------");
+        System.out.println("|Producto ordenado..............." + pedido);
+        System.out.println("|Cantidad ordenada..............." + cantidad);
+        System.out.println("|Precio unitario.................Q." + precio);
+        System.out.println("-------------------------------------------------");
+        System.out.println("|Total a neto....................Q." + compraTotal);
+        System.out.println("|Descuento aplicado.............." + (descuento * 100) + "%");
+        System.out.println("|Total a pagar...................Q." + precioPagar);
     }
 }
