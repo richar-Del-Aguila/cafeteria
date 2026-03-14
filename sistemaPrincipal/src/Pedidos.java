@@ -19,7 +19,7 @@ public class Pedidos {
         }
     }
 
-    public void datosFactura(){ //Metodo para calculas precios finales
+    public void datosFactura(){ //Metodo para calculas precios finales.
         precios.clear();
         totalPagar = 0.0;
 
